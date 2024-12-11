@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", initial-scale=1.0">
+    <link rel="stylesheet" href="resto.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>PastaLaVista</title>
+</head>
+
+<body>
+    <!-- logo et nav -->
+    <header>
+        <div class="logo"><img src="/Resto/pastalogo.png" width="90rem" height="auto"></div>
+        <nav class="navBar">
+            <a href="#menu__pates">Nos Pâtes </a>
+            <a href="#menu__pizzas">Nos pizzas </a>
+            <a href="#menu__desserts">Nos desserts</a>
+        </nav>
+    </header>
+
+    <!-- entete -->
+    <section class="enTete">
+        <div class="enTete__text">
+            <p>Un peu d’eau, du blé, un soleil écrasant, des tomates, quelques gouttes d’huile d’olive, una bella mozzarella, 
+            des olives et des feuilles de basilic jetées à la volée et les saveurs incontournables de la bonne cuisine italienne prennent sens !
+            Les odeurs de la rue, la dolce vita, et la mamma sont autant de composants incontournables qui constituent les racines de cette cuisine simple, familiale, généreuse et abondante.
+            Ce qui transforme cette cuisine italienne en opera, c’est le raffinement et la qualité de chacun des produits qui la composent.</p>
+        </div>
+        <div class="enTete__image">
+            <img src="/Resto/cusine.png" height="200px" width="auto">
+        </div>
+    </section>
+
+    <!-- milieu trois carre  -->
+    <section class="nosSpecialites">
+            <div class="nosSpecialites__enTete">
+                <h1 class="nosSpecialites__heading"><span>Nos specialités italiennes</span></h1>
+                <h2 class="nosSpecialites__text"><span>ORIGINAL ITALIAN CUISINE</span></h2>
+            </div> 
+
+        <section class="menu">
+            <div class="nosSpecialites__list">
+                <h3 class="menu__heading" id="menu__pates">Pates</h3>
+                <ul class="menu__list">
+                    <li class="menu__item">Lasagna verde</li>
+                    <li class="menu__item">Rigatoni, culatello e piselli</li>
+                    <li class="menu__item">Spaghetti alla carbonara</li>
+                    <li class="menu__item">Fettucine all’Afredo</li>
+                    <li class="menu__item">Linguine alla mollica</li>
+                </ul>      
+            </div>
+
+            <div class="nosSpecialites__list">
+                <h3 class="menu__heading" id="menu__pizzas">Pizzas</h3>
+                <ul class="menu__list"> 
+                    <li class="menu__item">Pizza napolitaine</li>
+                    <li class="menu__item">Margherita</li>
+                    <li class="menu__item">Marinara</li>
+                    <li class="menu__item">Quattro Stagioni</li>
+                    <li class="menu__item">Quattro Formaggi</li>
+                </ul>
+            </div>
+
+            <div class="nosSpecialites__list">
+                <h3 class="menu__heading" id="menu__desserts">Desserts</h3>
+                <ul class="menu__list">
+                    <li class="menu__item">Tiramisu</li>
+                    <li class="menu__item">Cannolis</li>
+                    <li class="menu__item">Semifreddo au chocolat meringué</li>
+                    <li class="menu__item">Panna cotta a la vanille</li>
+                    <li class="menu__item">Granita di limone</li>
+                </ul>  
+            </div>
+        </section>
+    </section>
+
+    <!-- section image -->
+    <section class="enImage" id="images">
+        <h4 class="enImage__heading">En Image</h4>
+        <ul class="enImage__list">
+            <li class="enImage__item"><img src="/Resto/dessert1.png" width="250px" height="200px"></li>
+            <li class="enImage__item"><img src="/Resto/pizza2.jpg" width="250px" height="auto"></li>
+            <li class="enImage__item"><img src="/Resto/pates1.jpg" width="250px" height="auto"></li>
+        </ul>
+        <ul class="enImage__list">
+            <li class="enImage__item"><img src="/Resto/pizza1.jpg" width="250px" height="auto"></li>
+            <li class="enImage__item"><img src="/Resto/pates2.jpg" width="250px" height="auto"></li>
+            <li class="enImage__item"><img src="/Resto/dessert2.png" width="250px" height="auto"></li>
+        </ul>
+    </section>
+
+    <!-- Formulaire -->
+    <section id="formulaire">
+        <h5 class="formulaire__heading">Reservez votre table</h5>
+        <form method="post" class="formulaire__list">
+            <input type="text" id="nom" name="nom" placeholder="Nom et Prenom" required><br>
+            <input type="email" id="email" name="email" placeholder="E-mail" required><br>
+            <input type="number" name="number" placeholder="Nombre de personnes" required><br>
+            <input type="date" id="date" required><br>
+            <button class="formulaire__button"  type="submit">Je réserve</button><br>
+        </form>
+    </section>
+
+    <footer class="footer">
+
+        <div class="footer__logo">
+            <div class="footer__image"><img src="/Resto/pastalogo.png"></div>
+            <p class="footer__adress"><i class="material-icons">map</i><br> 123 avenue de Rome<br>Quartier Italien<br>Paris</p>
+        </div>
+        <div class="footer__column">
+            <div class="footer__column--1">
+                <ul>
+                    <li><a href="" target="_blank"><img src="/Resto/"></li><br>
+                    <li><a href="https://www.facebook.com/votrenomutilisateur" target="_blank"></a>dff</li><br>
+                    <li><a href="">link3</a></li><br>
+                    <li><a href="">Link 4</a></li><br>
+                </ul>
+            </div>
+            <div class="footer__column--1">
+                <ul>
+                    <li><a href="">Link 2</a></li><br>
+                    <li><a href="">Link 3</a></li><br>
+                    <li><a href="">Link 4</a></li><br>
+                </ul>
+            </div>
+        </div>
+    
+    </footer>
+<p>&copy; 2024 Pasta La Vista. Tous droits réservés.</p>
+
+</body>
+</html>

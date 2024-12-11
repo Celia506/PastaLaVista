@@ -1,0 +1,135 @@
+body{
+    background-color: rgb(247, 248, 240);
+    padding: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    /* background-color: rgb(228, 161, 217); */
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin: 0rem;
+}
+.navBar{
+    /* background-color: aqua; */
+    width: 30rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.navBar a{
+    /* background-color: blueviolet; */
+    text-align: center;
+}
+.enTete{
+    /* background-color: rgb(204, 204, 228); */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.enTete__text{
+    /* background-color: rgb(199, 145, 145); */
+    margin: 1rem;
+}
+
+.nosSpecialites__heading{
+    /* background-color: rgb(77, 103, 219); */
+    text-align: center;
+    font-size: xx-large;
+}
+.nosSpecialites__enTete{
+    /* background-color: rgb(214, 39, 39); */
+    text-align: center;
+    font-size: larger;
+}
+.menu{
+    /* background-color: rgb(122, 122, 197); */
+    display: flex;
+    justify-content: space-evenly;
+}
+.nosSpecialites__list{
+    /* background-color: rgb(7, 77, 50); */
+    padding: 0.1rem 1rem;
+    border: solid;
+}
+.menu__heading{
+    /* background-color: rgb(189, 189, 212); */
+    padding: 0.5rem;
+}
+.menu__list{
+    /* background-color: blue; */
+    font-size: medium;
+    padding: 1rem;
+    /* border: 1px solid; */
+}
+
+.menu__item{
+    /* background-color: rgb(135, 218, 115); */
+    display: flex;
+}
+.enImage__heading{
+    /* background-color: blueviolet; */
+    text-align: center;
+    font-size: larger;
+    color: chocolate;
+}
+
+.enImage__list{
+    /* background-color: blue; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.enImage__item{
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0.2rem;
+}
+#formulaire{
+    border: solid 0.1px;
+    background-color: rgb(220, 221, 172);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 2rem 12rem;
+    padding: 0 0 1.5rem 0;
+    box-shadow: 1px 1px 5px rgb(2, 0, 0);
+}
+#formulaire h5{
+    background-color: azure;
+    font-size: larger;
+}
+footer{
+    /* background-color: rgb(177, 144, 207); */
+    display: flex;
+    justify-content:space-between;
+
+    border: solid 0.2px grey;
+    margin: 2rem 0.5rem;   
+}
+.footer__logo{
+    /* background-color: rgb(224, 140, 140); */
+    border-radius: 50px;
+    width: 50%;
+    padding: 1rem;
+}
+.footer__column{
+    /* background-color: rgb(233, 201, 23); */
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    border-radius: 50px;
+    
+}
+.footer__column--1{
+    /* background-color: rgb(96, 187, 101); */
+    border-radius: 50px;
+    width: 30%;
+    display: flex;
+    align-items: flex-end;
+}
