@@ -1,7 +1,7 @@
 body{
     background-color: rgb(238, 240, 224);
     color: black;
-    padding: 1rem;
+    padding: 1em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .dark-mode{
@@ -14,17 +14,17 @@ header{
     justify-content: space-between;
 }
 header h1{
-    /* background-color: aqua; */
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: oblique;
-    font-size: 60px;
+    font-size: 4em;
     color: rgb(85, 114, 43);
 }
 header button{
-    background-color: black;
+    background-color: rgb(24, 23, 23);
     color: white;
-    height: 5rem;
-    margin: 0 2rem;
+    height: 5em;
+    margin: 1 1em;
+    border-radius: 15%;
 }
 .responsive-logo{
     margin: 0rem;
@@ -35,19 +35,16 @@ header button{
     display: flex;
 }
 .navBar{
-    /* background-color: aqua; */
     width: 40%;
-    height: 20px;
+    height: 2em;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 .navBar a{
-    /* background-color: blueviolet; */
     text-align: center;
 }
 .enTete{
-    /* background-color: rgb(204, 204, 228); */
     display: flex;
     justify-content: center;
     text-align: center;
@@ -55,7 +52,7 @@ header button{
 }
 .enTete__text{
     /* background-color: rgb(199, 145, 145); */
-    margin: 1rem;
+    margin: 1em;
 }
 .nosSpecialites__heading{
     /* background-color: rgb(77, 103, 219); */
@@ -74,38 +71,40 @@ header button{
 }
 .nosSpecialites__list--green{
     background-color: rgb(53, 126, 98);
-    padding: 0.1rem 1rem;
+    padding: 0.1em 1em;
     border: solid;
     width: 25%; 
     color: black; 
 }
 .nosSpecialites__list--white{
     background-color: white;
-    padding: 0.1rem 1rem;
+    padding: 0.1em 1em;
     border: solid;
     width: 25%;   
     color: black;
 }
 .nosSpecialites__list--red{
     background-color: rgb(236, 29, 29);
-    padding: 0.1rem 1rem;
+    padding: 0.1em 1em;
     border: solid;
     width: 25%; 
     color: black;
 }
 .menu__heading{
     /* background-color: rgb(189, 189, 212); */
-    padding: 0.5rem;
+    padding: 0.5em;
+    font-size: 1.5em;
 }
 .menu__list{
     /* background-color: blue; */
     font-size: medium;
-    padding: 1rem;
+    padding: 1em;
     /* border: 1px solid; */
 }
 .menu__item{
     /* background-color: rgb(135, 218, 115); */
     display: flex;
+    font-size: 1em;
 }
 .enImage__heading{
     /* background-color: blueviolet; */
@@ -121,36 +120,27 @@ header button{
 
 }
 .enImage__item{
-    /* background-color: aquamarine; */
+    background-color: aquamarine;
     display: flex;
     flex-direction: row;
     list-style: none;
-    margin: 0.2rem;
+    margin: 0.5em;
     width: 22em;
     height: 22em;
 }
 #formulaire{
-    border: solid 0.1px;
-    background-color: rgb(243, 243, 187);
+    border: solid 0.1em;
+    background-color: rgb(235, 235, 225);
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin: 2rem 15rem;
-    padding: 0 0 1.5rem 0;
-    box-shadow: 1px 1px 5px rgb(2, 0, 0);
+    margin: 2em 15em;
+    padding: 0 0 1.5em 0;
+    box-shadow: 1em 1em 5em rgb(110, 94, 94);
 }
 .formulaire__heading{
     /* background-color: azure; */
     font-size: larger;
-
-}
-input{
-    /* background-color: rgb(221, 194, 168); */
-    border: 1px solid #8b8888;
-    box-shadow: 1px 1px 5px rgb(2, 0, 0);
-    appearance: none;
-    width: 15rem;
-    margin: 0.5rem;
 }
 footer{
     background-color: rgb(180, 206, 176);
@@ -158,27 +148,39 @@ footer{
     justify-content:space-between;
     color: black;
     border: solid 0.2px grey;
-    margin: 2rem 0.5rem;   
+    margin: 2em 0.5em;   
 }
 .footer__logo{
     /* background-color: rgb(224, 140, 140); */
     border-radius: 50px;
     width: 50%;
-    padding:  1rem 2rem;
+    padding:  1em 2em;
 }
 .footer__column{
     /* background-color: rgb(233, 201, 23); */
     display: flex;
     justify-content: flex-end;
     width: 50%;
-    border-radius: 50px;
-    
 }
 .footer__column--1{
     /* background-color: rgb(96, 187, 101); */
-    border-radius: 50px;
     width: 30%;
     display: flex;
     align-items: flex-end;
     margin: 0 3em;
+}
+input{
+    /* background-color: rgb(221, 194, 168); */
+    border: 0.1em solid #8b8888;
+    box-shadow: 0.2em 0.2em 0.2em rgb(122, 119, 119);
+    appearance: none;
+    width: 15em;
+    margin: 0.5em;
+}
+.formulaire__button{
+    width: 15em;
+    box-shadow: 0.2em 0.2em 0.5em rgb(50, 211, 45);
+    margin-top: 1em;
+    height: 2em;
+    color: rgb(26, 75, 7);
 }
