@@ -1,5 +1,6 @@
 :root{
     --colorFond:rgb(212, 209, 192) ;
+    --radius: 10%;
 }
 
 body{
@@ -28,7 +29,7 @@ header button{
     color: white;
     height: 5em;
     margin: 1 1em;
-    border-radius: 15%;
+    border-radius: var(--radius)
 }
 .responsive-logo{
     margin: 0rem;
@@ -139,7 +140,7 @@ header button{
 .enTete__image img{
     height: 20em;
     width: 35em;
-    border-radius: 5%;
+    border-radius: var(--radius)
 }
 #formulaire{
     border: solid 0.1em;

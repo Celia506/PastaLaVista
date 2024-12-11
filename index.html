@@ -100,11 +100,21 @@
 
     <section id="formulaire">
         <h6 class="formulaire__heading">Réservez votre table ! </h6>
-        <form method="post" class="formulaire__list" id="monFormulaire">
+
+        <form class="formulaire__list" id="monFormulaire">
+            
+            <label for="forName">Nom :</label>
             <input type="text" id="formName" name="nom" placeholder="Nom">
+
+            <label for="formEmail">E-mail :</label>
             <input type="email" id="formEmail" name="email" placeholder="E-mail">
-            <input type="number" name="formNumber" placeholder="Nombre de personnes">
+
+            <label for="formNumber">Téléphone :</label>
+            <input type="number" name="formNumber" id="formNumber" placeholder="Nombre de personnes">
+
+            <label for="formDate">Date de la réservation :</label>
             <input type="date" id="formDate" name="date">
+
             <button class="formulaire__button" id="monBouton" type="submit">Je réserve</button>
         </form>
     </section>
