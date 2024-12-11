@@ -2,7 +2,7 @@
 <html lang="fr-FR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width" initial-scale="1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="resto.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="/resto.js"></script>
@@ -12,8 +12,9 @@
 <body>
     <!-- logo et nav -->
     <header>
-        <div class="logo"><img src="./pastalogo.png" width="90em" height="90em"></div>
-        <h1>Pasta La Vista</h1>
+        <div class="logo">
+            <img src="./pastalogo.png" class="responsive-logo"></div>
+            <h1>Pasta La Vista</h1>
         <nav class="navBar">
             <a href="#menu__pates">Nos Pâtes </a>
             <a href="#menu__pizzas">Nos pizzas </a>
@@ -33,7 +34,7 @@
             Ce qui transforme cette cuisine italienne en opera, c’est le raffinement et la qualité de chacun des produits qui la composent.</p>
         </div>
         <div class="enTete__image">
-            <img src="./cusine.png" height="300em" width="450em">
+            <img src="./cusine.png" height="300px" width="450px">
         </div>
     </section>
 
@@ -84,14 +85,14 @@
     <section class="enImage" id="images">
         <h5 class="enImage__heading">En Image</h5>
         <ul class="enImage__list">
-            <li class="enImage__item"><img src="./dessert1.png" width="250em" height="200em"></li>
-            <li class="enImage__item"><img src="./pizza2.jpg" width="250em" height="200em"></li>
-            <li class="enImage__item"><img src="./pates1.jpg" width="250em" height="200em"></li>
+            <li class="enImage__item"><img src="./dessert1.png"></li>
+            <li class="enImage__item"><img src="./pizza2.jpg"></li>
+            <li class="enImage__item"><img src="./pates1.jpg"></li>
         </ul>
         <ul class="enImage__list">
-            <li class="enImage__item"><img src="./pizza1.jpg" width="250em" height="200em"></li>
-            <li class="enImage__item"><img src="./pates2.jpg" width="250em" height="200em"></li>
-            <li class="enImage__item"><img src="./dessert2.png" width="250em" height="200em"></li>
+            <li class="enImage__item"><img src="./pizza1.jpg"></li>
+            <li class="enImage__item"><img src="./pates2.jpg"></li>
+            <li class="enImage__item"><img src="./dessert2.png"></li>
         </ul>
     </section>
 
@@ -108,12 +109,10 @@
     </section>
 
     <footer class="footer">
-
         <div class="footer__logo">
-            <div class="footer__image"><img src="./pastalogo.png"></div>
+            <img src="./pastalogo.png" class="responsive-logo">
             <p class="footer__adress"><i class="material-icons">map</i><br> 123 avenue de Rome<br>Quartier Italien<br>Paris</p>
         </div>
-
         <div class="footer__column">
             <div class="footer__column--1">
                 <ul>
