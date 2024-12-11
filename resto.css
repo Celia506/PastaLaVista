@@ -130,13 +130,28 @@ header button{
 }
 #formulaire{
     border: solid 0.1em;
-    background-color: rgb(235, 235, 225);
+    background-color: rgb(180, 180, 52);
     display: flex;
     flex-direction: column;
     text-align: center;
+    justify-content: center;
     margin: 2em 15em;
     padding: 0 0 1.5em 0;
     box-shadow: 1em 1em 5em rgb(110, 94, 94);
+}
+.formulaire__list{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.formulaire__button{
+    width: 15em;
+    box-shadow: 0.2em 0.2em 0.5em rgb(50, 211, 45);
+    margin-top: 1em;
+    height: 2em;
+    color: rgb(26, 75, 7);
 }
 .formulaire__heading{
     /* background-color: azure; */
@@ -170,17 +185,11 @@ footer{
     margin: 0 3em;
 }
 input{
-    /* background-color: rgb(221, 194, 168); */
+    /* background-color: rgb(165, 102, 44); */
+    display: flex;
     border: 0.1em solid #8b8888;
     box-shadow: 0.2em 0.2em 0.2em rgb(122, 119, 119);
     appearance: none;
     width: 15em;
     margin: 0.5em;
-}
-.formulaire__button{
-    width: 15em;
-    box-shadow: 0.2em 0.2em 0.5em rgb(50, 211, 45);
-    margin-top: 1em;
-    height: 2em;
-    color: rgb(26, 75, 7);
 }
