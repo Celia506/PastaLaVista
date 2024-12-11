@@ -1,5 +1,9 @@
+:root{
+    --colorFond:rgb(212, 209, 192) ;
+}
+
 body{
-    background-color: rgb(238, 240, 224);
+    background-color: var(--colorFond);
     color: black;
     padding: 1em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -127,6 +131,15 @@ header button{
     margin: 0.5em;
     width: 22em;
     height: 22em;
+    transition: 1s ease-in-out;
+}
+.enImage__item:hover{
+    transform: scale(1.5);
+}
+.enTete__image img{
+    height: 20em;
+    width: 35em;
+    border-radius: 5%;
 }
 #formulaire{
     border: solid 0.1em;
