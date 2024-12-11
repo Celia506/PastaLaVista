@@ -1,7 +1,12 @@
 body{
     background-color: rgb(238, 240, 224);
+    color: black;
     padding: 1rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.dark-mode{
+    background-color: black;
+    color: rgb(236, 199, 199);
 }
 header{
     /* background-color: rgb(228, 161, 217); */
@@ -25,8 +30,8 @@ header button{
     margin: 0rem;
 }
 .navBar{
-    background-color: aqua;
-    width: 60%;
+    /* background-color: aqua; */
+    width: 40%;
     height: 20px;
     display: flex;
     flex-direction: row;
@@ -67,19 +72,22 @@ header button{
     background-color: rgb(53, 126, 98);
     padding: 0.1rem 1rem;
     border: solid;
-    width: 25%;  
+    width: 25%; 
+    color: black; 
 }
 .nosSpecialites__list--white{
     background-color: white;
     padding: 0.1rem 1rem;
     border: solid;
     width: 25%;   
+    color: black;
 }
 .nosSpecialites__list--red{
     background-color: rgb(236, 29, 29);
     padding: 0.1rem 1rem;
     border: solid;
     width: 25%; 
+    color: black;
 }
 .menu__heading{
     /* background-color: rgb(189, 189, 212); */
@@ -119,23 +127,32 @@ header button{
 }
 #formulaire{
     border: solid 0.1px;
-    background-color: rgb(220, 221, 172);
+    background-color: rgb(145, 145, 16);
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin: 2rem 12rem;
+    margin: 2rem 15rem;
     padding: 0 0 1.5rem 0;
     box-shadow: 1px 1px 5px rgb(2, 0, 0);
 }
 #formulaire h5{
     background-color: azure;
     font-size: larger;
+
+}
+input{
+    /* background-color: rgb(221, 194, 168); */
+    border: 1px solid #8b8888;
+    box-shadow: 1px 1px 5px rgb(2, 0, 0);
+    appearance: none;
+    width: 15rem;
+    margin: 0.5rem;
 }
 footer{
-    background-color: rgb(151, 207, 144);
+    background-color: rgb(180, 206, 176);
     display: flex;
     justify-content:space-between;
-
+    color: black;
     border: solid 0.2px grey;
     margin: 2rem 0.5rem;   
 }
@@ -159,10 +176,4 @@ footer{
     width: 30%;
     display: flex;
     align-items: flex-end;
-}
-input{
-    /* background-color: rgb(221, 194, 168); */
-    border: 1px solid #8b8888;
-    box-shadow: 1px 1px 5px rgb(2, 0, 0);
-    appearance: none;
 }
