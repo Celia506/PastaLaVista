@@ -49,10 +49,23 @@ header{
     display: flex;
     justify-content: space-evenly;
 }
-.nosSpecialites__list{
-    /* background-color: rgb(7, 77, 50); */
+.nosSpecialites__list--green{
+    background-color: rgb(53, 126, 98);
     padding: 0.1rem 1rem;
     border: solid;
+    width: 25%;  
+}
+.nosSpecialites__list--white{
+    background-color: white;
+    padding: 0.1rem 1rem;
+    border: solid;
+    width: 25%;   
+}
+.nosSpecialites__list--red{
+    background-color: rgb(236, 29, 29);
+    padding: 0.1rem 1rem;
+    border: solid;
+    width: 25%; 
 }
 .menu__heading{
     /* background-color: rgb(189, 189, 212); */
