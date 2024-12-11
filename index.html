@@ -2,7 +2,7 @@
 <html lang="fr-FR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <meta name="viewport" content="width=device-width" initial-scale="1.0">
     <link rel="stylesheet" href="resto.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="/resto.js"></script>
@@ -12,7 +12,7 @@
 <body>
     <!-- logo et nav -->
     <header>
-        <div class="logo"><img src="./pastalogo.png" width="90rem" height="auto"></div>
+        <div class="logo"><img src="./pastalogo.png" width="90em" height="90em"></div>
         <h1>Pasta La Vista</h1>
         <nav class="navBar">
             <a href="#menu__pates">Nos Pâtes </a>
@@ -33,20 +33,20 @@
             Ce qui transforme cette cuisine italienne en opera, c’est le raffinement et la qualité de chacun des produits qui la composent.</p>
         </div>
         <div class="enTete__image">
-            <img src="./cusine.png" height="200px" width="auto">
+            <img src="./cusine.png" height="300em" width="450em">
         </div>
     </section>
 
     <!-- milieu trois carre  -->
     <section class="nosSpecialites">
             <div class="nosSpecialites__enTete">
-                <h1 class="nosSpecialites__heading"><span>Nos specialités italiennes</span></h1>
-                <h2 class="nosSpecialites__text"><span>ORIGINAL ITALIAN CUISINE</span></h2>
+                <h2 class="nosSpecialites__heading"><span>Nos specialités italiennes</span></h2>
+                <h3 class="nosSpecialites__text"><span>ORIGINAL ITALIAN CUISINE</span></h3>
             </div> 
 
         <section class="menu">
             <div class="nosSpecialites__list--green">
-                <h3 class="menu__heading" id="menu__pates">Pates</h3>
+                <h4 class="menu__heading" id="menu__pates">Pates</h4>
                 <ul class="menu__list">
                     <li class="menu__item">Lasagna verde</li>
                     <li class="menu__item">Rigatoni, culatello e piselli</li>
@@ -57,7 +57,7 @@
             </div>
 
             <div class="nosSpecialites__list--white">
-                <h3 class="menu__heading" id="menu__pizzas">Pizzas</h3>
+                <h4 class="menu__heading" id="menu__pizzas">Pizzas</h4>
                 <ul class="menu__list"> 
                     <li class="menu__item">Pizza napolitaine</li>
                     <li class="menu__item">Margherita</li>
@@ -68,7 +68,7 @@
             </div>
 
             <div class="nosSpecialites__list--red">
-                <h3 class="menu__heading" id="menu__desserts">Desserts</h3>
+                <h4 class="menu__heading" id="menu__desserts">Desserts</h4>
                 <ul class="menu__list">
                     <li class="menu__item">Tiramisu</li>
                     <li class="menu__item">Cannolis</li>
@@ -82,22 +82,22 @@
 
     <!-- section image -->
     <section class="enImage" id="images">
-        <h4 class="enImage__heading">En Image</h4>
+        <h5 class="enImage__heading">En Image</h5>
         <ul class="enImage__list">
-            <li class="enImage__item"><img src="./dessert1.png" width="250px" height="200px"></li>
-            <li class="enImage__item"><img src="./pizza2.jpg" width="250px" height="auto"></li>
-            <li class="enImage__item"><img src="./pates1.jpg" width="250px" height="auto"></li>
+            <li class="enImage__item"><img src="./dessert1.png" width="250em" height="200em"></li>
+            <li class="enImage__item"><img src="./pizza2.jpg" width="250em" height="200em"></li>
+            <li class="enImage__item"><img src="./pates1.jpg" width="250em" height="200em"></li>
         </ul>
         <ul class="enImage__list">
-            <li class="enImage__item"><img src="./pizza1.jpg" width="250px" height="auto"></li>
-            <li class="enImage__item"><img src="./pates2.jpg" width="250px" height="auto"></li>
-            <li class="enImage__item"><img src="./dessert2.png" width="250px" height="auto"></li>
+            <li class="enImage__item"><img src="./pizza1.jpg" width="250em" height="200em"></li>
+            <li class="enImage__item"><img src="./pates2.jpg" width="250em" height="200em"></li>
+            <li class="enImage__item"><img src="./dessert2.png" width="250em" height="200em"></li>
         </ul>
     </section>
 
     <!-- Formulaire -->
     <section id="formulaire">
-        <h5 class="formulaire__heading">Reservez votre table</h5>
+        <h6 class="formulaire__heading">Réservez votre table ! </h6>
         <form method="post" class="formulaire__list" id="monFormulaire">
             <input type="text" id="nom" name="nom" placeholder="Nom et Prenom" required><br>
             <input type="email" id="email" name="email" placeholder="E-mail" required><br>
@@ -117,16 +117,22 @@
         <div class="footer__column">
             <div class="footer__column--1">
                 <ul>
-                    <li><a href="https://x.com/?lang=fr" target="_blank">x</a></li><br>
-                    <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li><br>
-                    <li><a href="https://www.instagram.com/">Instagram</a></li><br>
+                    <li><a href="https://x.com/?lang=fr" target="_blank">x</a></li>
+                    <br>
+                    <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+                    <br>
+                    <li><a href="https://www.instagram.com/">Instagram</a></li>
+                    <br>
                 </ul>
             </div>
             <div class="footer__column--1">
                 <ul>
-                    <li><a href="">Link 1</a></li><br>
-                    <li><a href="">Link 2</a></li><br>
-                    <li><a href="">Link 3</a></li><br>
+                    <li><a href="">Link 1</a></li>
+                    <br>
+                    <li><a href="">Link 2</a></li>
+                    <br>
+                    <li><a href="">Link 3</a></li>
+                    <br>
                 </ul>
             </div>
         </div>
