@@ -4,7 +4,7 @@ function myFunction() {
 }
 
 document.getElementById('monFormulaire').addEventListener('submit', function(event) {
-    // blque l'envoi du formulaire
+    // bloque l'envoi du formulaire
     event.preventDefault();
 
     // Récupérer les valeurs des champs

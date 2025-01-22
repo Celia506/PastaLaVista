@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="fr-FR">
+<html lang="fr-FR" class="dark">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="resto.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="resto.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <script src="/resto.js"></script>
     <title>PastaLaVista</title>
 </head>
@@ -13,37 +14,51 @@
     <!-- logo et nav -->
     <header>
         <div class="logo">
-            <img src="./pastalogo.png" class="responsive-logo" alt="Logo PastaLaVista"></div>
-            <h1>Pasta La Vista</h1>
+            <img src="./images/pastalogo.png" class="responsive-logo" alt="Logo PastaLaVista" />
+        </div>
+        <h1>Pasta La Vista</h1>
         <nav class="navBar">
             <a href="#menu__pates">Nos Pâtes </a>
             <a href="#menu__pizzas">Nos pizzas </a>
             <a href="#menu__desserts">Nos desserts</a>
             <a href="#images">Galleries</a>
             <a href="#formulaire">Reservez</a>
-        </nav> 
+        </nav>
         <button onclick="myFunction()">Activer le mode sombre</button>
     </header>
 
     <!-- entete -->
     <section class="enTete">
         <div class="enTete__text">
-            <p>Un peu d’eau, du blé, un soleil écrasant, des tomates, quelques gouttes d’huile d’olive, una bella mozzarella, 
-            des olives et des feuilles de basilic jetées à la volée et les saveurs incontournables de la bonne cuisine italienne prennent sens !
-            Les odeurs de la rue, la dolce vita, et la mamma sont autant de composants incontournables qui constituent les racines de cette cuisine simple, familiale, généreuse et abondante.
-            Ce qui transforme cette cuisine italienne en opera, c’est le raffinement et la qualité de chacun des produits qui la composent.</p>
+            <p>
+                Un peu d’eau, du blé, un soleil écrasant, des tomates, quelques
+                gouttes d’huile d’olive, una bella mozzarella, des olives et des
+                feuilles de basilic jetées à la volée et les saveurs incontournables
+                de la bonne cuisine italienne prennent sens ! Les odeurs de la rue, la
+                dolce vita, et la mamma sont autant de composants incontournables qui
+                constituent les racines de cette cuisine simple, familiale, généreuse
+                et abondante. Ce qui transforme cette cuisine italienne en opera,
+                c’est le raffinement et la qualité de chacun des produits qui la
+                composent.
+            </p>
         </div>
         <div class="enTete__image">
-            <img src="./cusine.png" alt="Plats Italiens">
+            <a href="https://fr.wikipedia.org/wiki/Cuisine_italienne" target="_blank">
+                <img src="./images/cusine.png" alt="Plats Italiens" />
+            </a>
         </div>
     </section>
 
     <!-- milieu trois carre  -->
     <section class="nosSpecialites">
-            <div class="nosSpecialites__enTete">
-                <h2 class="nosSpecialites__heading"><span>Nos specialités italiennes</span></h2>
-                <h3 class="nosSpecialites__text"><span>ORIGINAL ITALIAN CUISINE</span></h3>
-            </div> 
+        <div class="nosSpecialites__enTete">
+            <h2 class="nosSpecialites__heading">
+                <span>Nos specialités italiennes</span>
+            </h2>
+            <h3 class="nosSpecialites__text">
+                <span>ORIGINAL ITALIAN CUISINE</span>
+            </h3>
+        </div>
 
         <section class="menu">
             <div class="nosSpecialites__list--green">
@@ -54,12 +69,12 @@
                     <li class="menu__item">Spaghetti alla carbonara</li>
                     <li class="menu__item">Fettucine all’Afredo</li>
                     <li class="menu__item">Linguine alla mollica</li>
-                </ul>      
+                </ul>
             </div>
 
             <div class="nosSpecialites__list--white">
                 <h4 class="menu__heading" id="menu__pizzas">Pizzas</h4>
-                <ul class="menu__list"> 
+                <ul class="menu__list">
                     <li class="menu__item">Pizza napolitaine</li>
                     <li class="menu__item">Margherita</li>
                     <li class="menu__item">Marinara</li>
@@ -76,7 +91,7 @@
                     <li class="menu__item">Semifreddo au chocolat meringué</li>
                     <li class="menu__item">Panna cotta a la vanille</li>
                     <li class="menu__item">Granita di limone</li>
-                </ul>  
+                </ul>
             </div>
         </section>
     </section>
@@ -85,50 +100,62 @@
     <section class="enImage" id="images">
         <h5 class="enImage__heading">En Image</h5>
         <ul class="enImage__list">
-            <li class="enImage__item"><img src="./dessert1.png" alt="photo plats PastaLaVista"></li>
-            <li class="enImage__item"><img src="./pizza2.jpg" alt=""></li>
-            <li class="enImage__item"><img src="./pates1.jpg" alt=""></li>
+            <li class="enImage__item">
+                <img src="./images/dessert1.png" alt="photo plats PastaLaVista" />
+            </li>
+            <li class="enImage__item"><img src="./images/pizza2.jpg" alt="" /></li>
+            <li class="enImage__item"><img src="./images/pates1.jpg" alt="" /></li>
         </ul>
         <ul class="enImage__list">
-            <li class="enImage__item"><img src="./pizza1.jpg" alt="photo plats PastaLaVista"></li>
-            <li class="enImage__item"><img src="./pates2.jpg" alt=""></li>
-            <li class="enImage__item"><img src="./dessert2.png" alt=""></li>
+            <li class="enImage__item">
+                <img src="./images/pizza1.jpg" alt="photo plats PastaLaVista" />
+            </li>
+            <li class="enImage__item"><img src="./images/pates2.jpg" alt="" /></li>
+            <li class="enImage__item">
+                <img src="./images/dessert2.png" alt="" />
+            </li>
         </ul>
     </section>
 
-<!-- Formulaire -->
+    <!-- Formulaire -->
 
     <section id="formulaire">
-        <h6 class="formulaire__heading">Réservez votre table ! </h6>
+        <h6 class="formulaire__heading">Réservez votre table !</h6>
 
-        <form class="formulaire__list" id="monFormulaire">
-            
+        <form class="formulaire__list" id="monFormulaire" type="submit">
             <label for="forName">Nom :</label>
-            <input type="text" id="formName" name="nom" placeholder="Nom">
+            <input type="text" id="formName" name="nom" placeholder="Nom" value="" />
 
             <label for="formEmail">E-mail :</label>
-            <input type="email" id="formEmail" name="email" placeholder="E-mail">
+            <input type="email" id="formEmail" name="email" placeholder="E-mail" value="" />
 
             <label for="formNumber">Téléphone :</label>
-            <input type="number" name="formNumber" id="formNumber" placeholder="Nombre de personnes">
+            <input type="number" name="formNumber" id="formNumber" placeholder="Nombre de personnes" value="" />
 
             <label for="formDate">Date de la réservation :</label>
-            <input type="date" id="formDate" name="date">
+            <input type="date" id="formDate" name="date" />
 
-            <button class="formulaire__button" id="monBouton" type="submit">Je réserve</button>
+            <button class="formulaire__button" id="monBouton" type="submit">
+                Je réserve
+            </button>
         </form>
     </section>
 
     <footer class="footer">
         <div class="footer__logo">
-            <img src="./pastalogo.png" class="responsive-logo" alt="logo PastaLaVista">
-            <p class="footer__adress"><i class="material-icons">map</i><br> 123 avenue de Rome<br>Quartier Italien<br>Paris</p>
+            <img src="./images/pastalogo.png" class="responsive-logo" alt="logo PastaLaVista" />
+            <p class="footer__adress">
+                <i class="material-icons">map</i><br />
+                123 avenue de Rome<br />Quartier Italien<br />Paris
+            </p>
         </div>
         <div class="footer__column">
             <div class="footer__column--1">
                 <ul>
                     <li><a href="https://x.com/?lang=fr" target="_blank">x</a></li>
-                    <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+                    <li>
+                        <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+                    </li>
                     <li><a href="https://www.instagram.com/">Instagram</a></li>
                 </ul>
             </div>
@@ -140,9 +167,8 @@
                 </ul>
             </div>
         </div>
-    
     </footer>
-<p>&copy; 2024 Pasta La Vista. Tous droits réservés.</p>
-
+    <p>&copy; 2024 Pasta La Vista. Tous droits réservés.</p>
 </body>
+
 </html>

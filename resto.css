@@ -1,130 +1,159 @@
-:root{
-    --colorFond:rgb(212, 209, 192) ;
+:root {
+    --colorFond: rgb(240, 237, 212);
     --radius: 10%;
+    --colorPolice: rgb(108, 128, 90);
 }
 
-body{
+HTML {
+    scroll-behavior: smooth;
+}
+
+body {
     background-color: var(--colorFond);
+    width: 90%;
+    margin: auto;
     color: black;
     padding: 1em;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
+
 .dark-mode{
     background-color: black;
     color: rgb(236, 199, 199);
 }
-header{
+
+header {
     /* background-color: rgb(228, 161, 217); */
     display: flex;
     justify-content: space-between;
 }
-header h1{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+header h1 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-style: oblique;
     font-size: 3em;
-    color: rgb(85, 114, 43);
+    color: var(--colorPolice);
 }
-header button{
+
+header button {
     background-color: rgb(24, 23, 23);
     color: white;
     height: 5em;
     margin: 1 1em;
-    border-radius: var(--radius)
+    border-radius: var(--radius);
 }
-.responsive-logo{
+
+.responsive-logo {
     margin: 0rem;
     width: 10em;
     height: 10em;
 }
-.logo{
+
+.logo {
     display: flex;
 }
-.navBar{
+
+.navBar {
     width: 40%;
     height: 2em;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.navBar a{
+
+.navBar a {
     text-align: center;
 }
-.enTete{
+
+.enTete {
     display: flex;
     justify-content: center;
     text-align: center;
     align-items: center;
 }
-.enTete__text{
+
+.enTete__text {
     /* background-color: rgb(199, 145, 145); */
     margin: 1em;
 }
-.nosSpecialites__heading{
+
+.nosSpecialites__heading {
     /* background-color: rgb(77, 103, 219); */
     text-align: center;
     font-size: xx-large;
 }
-.nosSpecialites__enTete{
+
+.nosSpecialites__enTete {
     /* background-color: rgb(214, 39, 39); */
     text-align: center;
     font-size: larger;
 }
-.menu{
+
+.menu {
     /* background-color: rgb(122, 122, 197); */
     display: flex;
     justify-content: space-evenly;
 }
-.nosSpecialites__list--green{
+
+.nosSpecialites__list--green {
     background-color: rgb(53, 126, 98);
     padding: 0.1em 1em;
     border: solid;
-    width: 25%; 
-    color: black; 
+    width: 25%;
+    color: black;
 }
-.nosSpecialites__list--white{
+
+.nosSpecialites__list--white {
     background-color: white;
     padding: 0.1em 1em;
     border: solid;
-    width: 25%;   
+    width: 25%;
     color: black;
 }
-.nosSpecialites__list--red{
+
+.nosSpecialites__list--red {
     background-color: rgb(236, 29, 29);
     padding: 0.1em 1em;
     border: solid;
-    width: 25%; 
+    width: 25%;
     color: black;
 }
-.menu__heading{
+
+.menu__heading {
     /* background-color: rgb(189, 189, 212); */
     padding: 0.5em;
     font-size: 1.5em;
 }
-.menu__list{
+
+.menu__list {
     /* background-color: blue; */
     font-size: medium;
     padding: 1em;
     /* border: 1px solid; */
 }
-.menu__item{
+
+.menu__item {
     /* background-color: rgb(135, 218, 115); */
     display: flex;
     font-size: 1em;
 }
-.enImage__heading{
+
+.enImage__heading {
     /* background-color: blueviolet; */
     text-align: center;
     font-size: larger;
     color: chocolate;
 }
-.enImage__list{
+
+.enImage__list {
     /* background-color: blue; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-
 }
-.enImage__item{
+
+.enImage__item {
     background-color: aquamarine;
     display: flex;
     flex-direction: row;
@@ -134,15 +163,18 @@ header button{
     height: 22em;
     transition: 1s ease-in-out;
 }
-.enImage__item:hover{
+
+.enImage__item:hover {
     transform: scale(1.5);
 }
-.enTete__image img{
+
+.enTete__image img {
     height: 20em;
     width: 35em;
-    border-radius: var(--radius)
+    border-radius: var(--radius);
 }
-#formulaire{
+
+#formulaire {
     border: solid 0.1em;
     background-color: rgb(180, 180, 52);
     display: flex;
@@ -153,57 +185,73 @@ header button{
     padding: 0 0 1.5em 0;
     box-shadow: 1em 1em 5em rgb(110, 94, 94);
 }
-.formulaire__list{
+
+.formulaire__list {
     /* background-color: aqua; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.formulaire__button{
+
+.formulaire__button {
     width: 15em;
     box-shadow: 0.2em 0.2em 0.5em rgb(50, 211, 45);
     margin-top: 1em;
     height: 2em;
     color: rgb(26, 75, 7);
 }
-.formulaire__heading{
+
+.formulaire__heading {
     /* background-color: azure; */
     font-size: larger;
 }
-footer{
+
+footer {
     background-color: rgb(180, 206, 176);
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     color: black;
     border: solid 0.2px grey;
-    margin: 2em 0.5em;   
+    margin: 2em 0.5em;
 }
-.footer__logo{
+
+.footer__logo {
     /* background-color: rgb(224, 140, 140); */
     border-radius: 50px;
     width: 50%;
-    padding:  1em 2em;
+    padding: 1em 2em;
 }
-.footer__column{
+
+.footer__column {
     /* background-color: rgb(233, 201, 23); */
     display: flex;
     justify-content: flex-end;
     width: 50%;
 }
-.footer__column--1{
+
+.footer__column--1 {
     /* background-color: rgb(96, 187, 101); */
     width: 30%;
     display: flex;
     align-items: flex-end;
     margin: 0 3em;
 }
-input{
-    /* background-color: rgb(165, 102, 44); */
+
+input {
     display: flex;
-    border: 0.1em solid #8b8888;
-    box-shadow: 0.2em 0.2em 0.2em rgb(122, 119, 119);
-    appearance: none;
-    width: 15em;
+    width: 20em;
     margin: 0.5em;
+}
+input:focus{
+    background-color: rgb(206, 206, 226);
+    color: brown;
+}
+p::first-letter{
+    color: red;
+    font-weight: bold;
+}   
+::selection {
+    background-color: rgb(206, 206, 226);
+    color: rgb(133, 38, 43);
 }
